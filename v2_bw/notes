@@ -1,0 +1,44 @@
+V2
+
+Info om färger på kablar:
+
+Motorer
+Krympslang	Kabelfärg
+SVART		BLÅ
+RÖD			RÖD
+GRÖN		GRÖN
+UTAN		SVART
+
+X&Y endstops
+Krympslang	Endstop
+RÖD			X
+GUL			Y
+UTAN		JORD
+
+Probe
+Krympslang	Kabelfärg
+RÖD			BRUN (24v+)
+GUL			BLÅ (24v-)
+UTAN		SVART (signal)
+
+Info om chamber thermistor:
+104GT thermistor
+Kopplad på MCUZ på TH0 (bredvid bed thermistor)
+
+
+
+To do:
+Hårdvara:
+Koppla in fläkt för exhaust
+Koppla in LED's
+
+Mjukvara:
+Display färg
+Z_ENDSTOP_CALIBRATE
+
+PRINT_START måste vara med i slicern!
+PRINT_END
+
+
+
+
