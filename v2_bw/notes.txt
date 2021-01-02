@@ -1,35 +1,42 @@
-Info om färger på kablar:
-
-Motorer
+#####################################################################
+# 	Kabelfäger
+#####################################################################
+      Motorer
 Krympslang	Kabelfärg
-SVART		BLÅ
-RÖD			RÖD
-GRÖN		GRÖN
-UTAN		SVART
+SVART		      BLÅ
+RÖD		      RÖD
+GRÖN		      GRÖN
+UTAN		      SVART
 
-X&Y endstops
+      X&Y endstops
 Krympslang	Endstop
 RÖD			X
 GUL			Y
-UTAN		JORD
+UTAN		      JORD
 
-Probe
+      Probe
 Krympslang	Kabelfärg
 RÖD			BRUN (24v+)
 GUL			BLÅ (24v-)
-UTAN		SVART (signal)
+UTAN		      SVART (signal)
 
+#####################################################################
+# 	Diverse anteckningar
+#####################################################################
 Info om chamber thermistor:
 104GT thermistor
 Kopplad på MCUZ på TH0 (bredvid bed thermistor)
 
-
+#####################################################################
+# 	To do
+#####################################################################
 
 To do:
 Hårdvara:
 Koppla in fläkt för exhaust
 Koppla in LED's
 Thermistor i elektronikutrymme
+Resonance tuning koppling 
 
 Mjukvara:
 PID tune bed
@@ -38,8 +45,11 @@ Macros
 Chamber info i display
 PI kamera
 Raspberry temp (lägg till raspberry som MCU?)
+Resonance tuning
 
-
+#####################################################################
+# 	Calibrating Z_ENDSTOP_CALIBRATE
+#####################################################################
 
 How to perfect your first layer height with Klipper
 There are two steps to getting your first layer height perfect. First is Z endstop calibration, which gets you most of the way there, then comes "baby stepping" to perfect it during a print. 
