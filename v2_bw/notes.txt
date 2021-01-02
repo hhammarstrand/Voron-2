@@ -40,3 +40,25 @@ PI kamera
 Raspberry temp (lägg till raspberry som MCU?)
 
 
+
+How to perfect your first layer height with Klipper
+There are two steps to getting your first layer height perfect. First is Z endstop calibration, which gets you most of the way there, then comes "baby stepping" to perfect it during a print. 
+Baby stepping is not always necessary, sometimes you will get satisfactory results from Z endstop calibration alone.
+
+Z ENDSTOP CALIBRATION
+   Do this with your bed and nozzle at your desired print temp. Heat soak your bed for 10-30 min. 
+   1) Home, QGL, then home again (i.e. G32). 
+   2) Move your nozzle to the center of the build plate. 
+   3) Run Z_ENDSTOP_CALIBRATE to enter adjustment mode. 
+   4) Place a piece of printer paper under the nozzle.
+   5) Adjust your nozzle height using TESTZ Z= commands until you just start feeling resistance when moving the paper. 
+         - I recommend doing this in 0.025 increments (TESTZ Z=0.025 and TESTZ Z=-0.025). 
+         - You can start with coarser moves until you are visibly close, then use small increments.
+   6) Run TESTZ Z=-0.1 (this adjusts for the thickness of the paper)
+   7) Run ACCEPT.
+   8) Move the hot nozzle away from the build surface. You don't want to let it sit there too long for risk of damaging it.
+   9) Run SAVE_CONFIG.  This will save your new value and restart Klipper. 
+         - Make sure to re-open the config if you have it open in any editors, so that you don't accidentally save over it with the old values.
+
+
+
