@@ -30,22 +30,21 @@ Kopplad på MCUZ på TH0 (bredvid bed thermistor)
 #####################################################################
 # 	To do
 #####################################################################
-
-To do:
-Hårdvara:
+      Hårdvara:
 Koppla in fläkt för exhaust
 Koppla in LED's
 Thermistor i elektronikutrymme
 Resonance tuning koppling 
+Nozzle scrub https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/edwardyeeks/Decontaminator_Purge_Bucket_%26_Nozzle_Scrubber
+Gcode buttons 
 
-Mjukvara:
+      Mjukvara:
 PID tune bed
-Bed mesh
 Macros
-Chamber info i display
+      Nozzle scrub
+      Gcode buttons https://github.com/VoronDesign/VoronUsers/tree/master/legacy_printers/printer_mods/meteyou/gcode_buttons
 PI kamera
-Raspberry temp (lägg till raspberry som MCU?)
-Resonance tuning
+Resonance tuning https://www.klipper3d.org/RPi_microcontroller.html https://www.klipper3d.org/Measuring_Resonances.html 
 
 #####################################################################
 # 	Calibrating Z_ENDSTOP_CALIBRATE
