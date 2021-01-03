@@ -37,6 +37,8 @@ Thermistor i elektronikutrymme
 Resonance tuning koppling 
 Nozzle scrub https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/edwardyeeks/Decontaminator_Purge_Bucket_%26_Nozzle_Scrubber
 Gcode buttons 
+Cable covers: https://github.com/VoronDesign/VoronUsers/tree/master/legacy_printers/printer_mods/exquyre/cable_cover
+
 
       Mjukvara:
 PID tune bed
